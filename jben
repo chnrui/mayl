@@ -2,7 +2,7 @@
 set -e
 
 # check net
-ping -q -w 1 -c 1 www.baidu.com > /dev/null || (echo "Plese check your network." && exit 1)
+#ping -q -w 1 -c 1 www.baidu.com > /dev/null || (echo "Plese check your network." && exit 1)
 #nslookup www.baidu.com >/dev/null || (echo "Plese check your dns!" && exit 1)
 
 # Determine OS platform
